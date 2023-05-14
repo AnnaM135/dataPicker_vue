@@ -2,6 +2,7 @@
 import HelloWorld from "../components/HelloWorld.vue";
 import TodoList from "../components/TodoList.vue";
 import Test from "../components/Test.vue";
+import ProgressComponent from "../components/ProgressComponent.vue"
 import { ref } from 'vue'
 
 const tasks = ref([
@@ -31,6 +32,8 @@ const tasks = ref([
     <TodoList :tasks="tasks"/>
     <div style="margin-top: 50px"></div>
     <Test />
+      <div style="margin-top: 50px"></div>
+    <ProgressComponent />
   </main>
 </template>
 
