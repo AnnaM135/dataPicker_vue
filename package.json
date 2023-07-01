@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "@syncfusion/ej2-vue-calendars": "^21.2.4",
+    "chart.js": "^4.3.0",
     "flatpickr": "^4.6.13",
     "vue": "^3.2.47",
+    "vue-chart-3": "^3.1.8",
+    "vue-chartjs": "^5.2.0",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
