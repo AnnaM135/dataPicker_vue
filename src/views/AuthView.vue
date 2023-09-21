@@ -1,4 +1,8 @@
+<script setup>
+import { defineAsyncComponent } from 'vue'
 
+const AuthView = defineAsyncComponent(() => import('./AuthView.vue'));
+</script>
 <template>
   <div>
 
