@@ -6,7 +6,7 @@ import ImageCropper from "./components/ImageCropper.vue";
 // import Croping from "./components/Croping.vue";
 import NewCropper from "./components/NewCropper.vue";
 import NewCropperMultiple from "./components/NewCropperMultiple.vue";
-
+import UploadVideo from "./components/UploadVideo.vue";
 </script>
 
 <template>
@@ -18,7 +18,8 @@ import NewCropperMultiple from "./components/NewCropperMultiple.vue";
     <!-- <ImageCropper /> -->
     <!-- <Croping /> -->
     <!-- <NewCropper /> -->
-    <NewCropperMultiple />
+    <!-- <NewCropperMultiple /> -->
+    <UploadVideo />
   </div>
 </template>
 
