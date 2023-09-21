@@ -41,10 +41,6 @@ onMounted(() => {
         cropBoxResizable: false,
         zoomOnWheel: true
     })
-    // cropper.on("zoom", (event) => {
-    //     zoomLevel.value = event.detail.ratio;
-    //     zoomPercentage.value = (event.detail.ratio * 100).toFixed(0);
-    // });
 })
 
 onUnmounted(() => {
@@ -56,7 +52,6 @@ watchEffect(() => {
         fileReader.readAsDataURL(selectedFile.value)
     } else {
         imageSrc.value = null
-        img.value = null
     }
 })
 
