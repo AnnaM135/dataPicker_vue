@@ -7,6 +7,7 @@ import ImageCropper from "./components/ImageCropper.vue";
 import NewCropper from "./components/NewCropper.vue";
 import NewCropperMultiple from "./components/NewCropperMultiple.vue";
 import UploadVideo from "./components/UploadVideo.vue";
+import GalerySlides from "./components/auction/GalerySlides.vue";
 </script>
 
 <template>
@@ -19,7 +20,8 @@ import UploadVideo from "./components/UploadVideo.vue";
     <!-- <Croping /> -->
     <!-- <NewCropper /> -->
     <!-- <NewCropperMultiple /> -->
-    <UploadVideo />
+    <!-- <UploadVideo /> -->
+    <GalerySlides />
   </div>
 </template>
 
