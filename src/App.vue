@@ -8,6 +8,8 @@ import NewCropper from "./components/NewCropper.vue";
 import NewCropperMultiple from "./components/NewCropperMultiple.vue";
 import UploadVideo from "./components/UploadVideo.vue";
 import GalerySlides from "./components/auction/GalerySlides.vue";
+import CustomPagination from "./components/CustomPagination.vue";
+
 </script>
 
 <template>
@@ -21,7 +23,8 @@ import GalerySlides from "./components/auction/GalerySlides.vue";
     <!-- <NewCropper /> -->
     <!-- <NewCropperMultiple /> -->
     <!-- <UploadVideo /> -->
-    <GalerySlides />
+    <!-- <GalerySlides /> -->
+    <CustomPagination />
   </div>
 </template>
 
