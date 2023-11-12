@@ -9,6 +9,8 @@ import NewCropperMultiple from "./components/NewCropperMultiple.vue";
 import UploadVideo from "./components/UploadVideo.vue";
 import GalerySlides from "./components/auction/GalerySlides.vue";
 import CustomPagination from "./components/CustomPagination.vue";
+import Cards from "./components/Cards.vue";
+import ProgressBar from "./components/ProgressBar.vue";
 
 </script>
 
@@ -24,7 +26,9 @@ import CustomPagination from "./components/CustomPagination.vue";
     <!-- <NewCropperMultiple /> -->
     <!-- <UploadVideo /> -->
     <!-- <GalerySlides /> -->
-    <CustomPagination />
+    <!-- <CustomPagination /> -->
+    <ProgressBar />
+    <Cards />
   </div>
 </template>
 
